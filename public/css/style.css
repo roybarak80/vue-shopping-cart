@@ -1,0 +1,30 @@
+
+
+.searchbar{
+    display: flex;
+}
+
+#sidebar.affix-top {
+    position: relative;
+    
+  }
+
+.card-text{
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 10rem;
+    font-size: 0.7rem;
+}
+@media (min-width: 992px) {
+
+    #sidebar.affix-top {
+        position: fixed;
+        top: 4rem;
+        z-index: 9999 !important;
+        right: 2rem;
+      }
+    
+}
